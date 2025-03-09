@@ -43,11 +43,16 @@ $$
 $$
 donde solo una cantidad finita de $\lambda_m$ son distintos de 0, o $\lambda_m$ se desvanece en el caso contrario
 
-Para satisfacer los requerimientos "fisicos" esperables de una maquina de computo, se pide que los elementos de la matriz unitaria $U$ tomen la siguiente forma:
+Para satisfacer los requerimientos "físicos" esperables de una maquina de computo, se pide que los elementos de la matriz unitaria $U$ tomen la siguiente forma:
 
 $\langle x'\;;\;n'\;;\;m'|\;\;U\;\;|x\;;\;n\;;\;m \rangle = [\delta_{x'}^{x+1} U^+(n',m'_x | n,m_x) + \delta_{x'}^{x-1}U^- (n',m_x ' | n, m_x)]\prod_{x\neq y}\delta_{m_y}^{m_y}$   
 
 Explicación de la notación:
 ![[Pasted image 20250309180922.png]]
 
-Los productos iterados de la derecha se aseguran de que solo el bit de memoria x-esimo sea parte del paso de computación. Las deltas de Kronecker se aseguran de que en cada paso, x se desplace solo una unidad a la izquierda (x-1) o a la derecha (x+1), y las funciones $U^\pm(n',m' | n,m)$ representan la transformación del estado dependiento solo de los observables "locales" $\hat n$ y $\hat m_x$. Estos operadores pueden ser arbitrarios mientras sean unitarios, con el fin de mantener unitaria toda la transformación $U$ . Cada posible elección de estos operadores define un computador cuantico distinto $\mathcal{L}[U^+, U^-]$ 
+Los productos iterados de la derecha se aseguran de que solo el bit de memoria x-esimo sea parte del paso de computación. Las deltas de Kronecker se aseguran de que en cada paso, x se desplace solo una unidad a la izquierda (x-1) o a la derecha (x+1), y las funciones $U^\pm(n',m' | n,m)$ representan la transformación del estado dependiendo solo de los observables "locales" $\hat n$ y $\hat m_x$. Estos operadores pueden ser arbitrarios mientras sean unitarios, con el fin de mantener unitaria toda la transformación $U$ . Cada posible elección de estos operadores define un computador cuántico distinto $\mathcal{L}[U^+, U^-]$ .
+
+
+En computación clásica, podemos definir la parada de una Maquina de Turing cuando dos estados consecutivos son idénticos. Un programa "valido" es aquel que asegura que la maquina se detendrá en un numero finito de pasos. Sin embargo, por la naturaleza de la definición de las transiciones de estados en nuestra maquina cuántica, esta nunca puede estar en un estado idéntico luego de una computación no trivial. 
+
+Tampoco podemos hacer ninguna observación antes de que la computación se detenga porque esto alteraría de forma irreversible es estado del sistema cuántico. La forma mas efectiva de señalar al observador del computo que este ha concluid
