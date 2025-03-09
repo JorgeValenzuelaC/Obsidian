@@ -33,4 +33,13 @@ $$
 \mathbf{U}^\dagger \mathbf U  =  \mathbf U \mathbf{U}^\dagger = 1
 $$
 
-La computación inicia con $t=0$. En este momento, tanto $\hat x$ (el puntero) como $\hat n$ ()
+La computación inicia con $t=0$. En este momento, tanto $\hat x$ (el puntero) como $\hat n$ (el procesador, o espacio de trabajo) están seteados a 0, mientras que una porción finita de los $\hat m$ se preparan como el "programa" y el input, y el resto se coloca en 0. Es decir
+
+$$
+| \psi (0) \rangle = \sum_m \lambda_m |0 ; 0; m \rangle,
+$$
+$$
+\sum_m | \lambda_m | ^2 = 1
+$$
+donde solo una cantidad finita de $\lambda_m$ son distintos de 0, o $\lambda_m$ se desvanece en el caso contrario
+
