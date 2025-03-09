@@ -27,5 +27,10 @@ de $\hat x$, $\hat n$ y $\hat m$ etiquetados por sus correspondientes valores pr
 La evolución de todo el sistema $\mathcal{L}$ puede ser resumida por un operador unitario constante $U$ de $\mathcal{H}$. en $U$ se sintetiza la evolución de cualquier estado $|\psi(t)\rangle \in \mathcal{H}$ durante cada paso de computación
 
 $$
-|\psi(nT)\rangle = \mathbf{}
+|\psi(nT)\rangle = \mathbf{U}^n |\psi(0) \rangle \;\;\;\;\; (n\in \mathbb{Z}^+),
 $$
+$$
+\mathbf{U}^\dagger \mathbf U  =  \mathbf U \mathbf{U}^\dagger = 1
+$$
+
+La computación inicia con $t=0$. En este momento, tanto $\hat x$ (el puntero) como $\hat n$ ()
