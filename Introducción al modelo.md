@@ -55,4 +55,9 @@ Los productos iterados de la derecha se aseguran de que solo el bit de memoria x
 
 En computación clásica, podemos definir la parada de una Maquina de Turing cuando dos estados consecutivos son idénticos. Un programa "valido" es aquel que asegura que la maquina se detendrá en un numero finito de pasos. Sin embargo, por la naturaleza de la definición de las transiciones de estados en nuestra maquina cuántica, esta nunca puede estar en un estado idéntico luego de una computación no trivial. 
 
-Tampoco podemos hacer ninguna observación antes de que la computación se detenga porque esto alteraría de forma irreversible es estado del sistema cuántico. La forma mas efectiva de señalar al observador del computo que este ha concluido es usar uno de los bits internos del procesador, digamos $\hat n_0$ y apartarlo con este objetivo. De esta forma sabremos que el programa ha concluido cuando $\hat n_0$ valga 1, y este puede ser observador periodicamente sin alterar el estado del sistema. Diremos que un programa de $\mathcal{L}$ es valido si el valor esperado de su tiempo de computación (es decir, que $\hat n_0$ = 1) sea finito. 
+Tampoco podemos hacer ninguna observación antes de que la computación se detenga porque esto alteraría de forma irreversible es estado del sistema cuántico. La forma mas efectiva de señalar al observador del computo que este ha concluido es usar uno de los bits internos del procesador, digamos $\hat n_0$ y apartarlo con este objetivo. De esta forma sabremos que el programa ha concluido cuando $\hat n_0$ valga 1, y este puede ser observador periodicamente sin alterar el estado del sistema. Diremos que un programa de $\mathcal{L}$ es valido si el valor esperado de su tiempo de computación (es decir, que $\hat n_0$ = 1) sea finito.
+
+![[Pasted image 20250309183323.png]]
+
+## Prop.
+La Computadora cuantica $\mathcal{L}$ posee la propiedad universal de computar cualquier funcion recursiva
