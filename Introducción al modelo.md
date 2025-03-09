@@ -50,4 +50,4 @@ $\langle x'\;;\;n'\;;\;m'|\;\;U\;\;|x\;;\;n\;;\;m \rangle = [\delta_{x'}^{x+1} U
 Explicación de la notación:
 ![[Pasted image 20250309180922.png]]
 
-Los productos iterados de la derecha 
+Los productos iterados de la derecha se aseguran de que solo el bit de memoria x-esimo sea parte del paso de computación. Las deltas de Kronecker se aseguran de que en cada paso, x se desplace solo una unidad a la izquierda (x-1) o a la derecha (x+1), y las funciones $U^\pm(n',m' | n,m)$ representan la transformación del estado dependiento solo de los observables "locales" $\hat n$ y $\hat m_x$. Estos operadores pueden ser arbitrarios mientras sean unitarios, con el fin de mantener unitaria toda la transformación $U$ . Cada posible elección de estos operadores define un computador cuantico distinto $\mathcal{L}[U^+, U^-]$ 
