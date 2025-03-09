@@ -24,4 +24,8 @@ $$
 de $\hat x$, $\hat n$ y $\hat m$ etiquetados por sus correspondientes valores propios $x$,$n$ y $m$ 
 
 
-La evolución de todo el sistema $\mathcal{L}$ puede ser resumida por un operador unitario constante $U$ de $\mathcal{H}$. en $U$ se sintetiza la evolución de cualquier estado 
+La evolución de todo el sistema $\mathcal{L}$ puede ser resumida por un operador unitario constante $U$ de $\mathcal{H}$. en $U$ se sintetiza la evolución de cualquier estado $|\psi(t)\rangle \in \mathcal{H}$ durante cada paso de computación
+
+$$
+|\psi(nT)\rangle = \mathbf{}
+$$
