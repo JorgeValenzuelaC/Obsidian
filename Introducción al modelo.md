@@ -45,4 +45,4 @@ donde solo una cantidad finita de $\lambda_m$ son distintos de 0, o $\lambda_m$ 
 
 Para satisfacer los requerimientos "fisicos" esperables de una maquina de computo, se pide que los elementos de la matriz unitaria $U$ tomen la siguiente forma:
 
-$\langle x'\;;\;n'\;;\;m'|U|x\;;\;n\;;\;m \rangle = [\delta_{x'}^{x+1} U^+(n',)]$  
+$\langle x'\;;\;n'\;;\;m'|U|x\;;\;n\;;\;m \rangle = [\delta_{x'}^{x+1} U^+(n',m'_x | n,m_x) + \delta_{x'}^{x-1}U^- (n',m_x ' | n, m_x)]\prod_{x\neq y}\delta_{m_y}^{m_y}$   
