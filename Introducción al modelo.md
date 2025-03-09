@@ -1,6 +1,7 @@
 
 [D. Deutsch] Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer
 
+# El computador Cuántico $\mathcal{L}$
 
 Tenemos un procesador que consiste de $M$ observables de dos estados
 
@@ -60,4 +61,9 @@ Tampoco podemos hacer ninguna observación antes de que la computación se deten
 ![[Pasted image 20250309183323.png]]
 
 ## Prop.
-La Computadora cuantica $\mathcal{L}$ posee la propiedad universal de computar cualquier funcion recursiva
+La Computadora cuántica $\mathcal{L}$ posee la propiedad universal de computar cualquier función recursiva, al igual que la Maquina de Turing.
+
+## Base para la computación cuántica universal
+
+![[Pasted image 20250309183656.png]]
+
