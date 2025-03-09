@@ -14,5 +14,11 @@ $$
 $$
 Esto hace el analogo de la cinta infinita de una maquina de turing clasica.
 
-Tambien tenemos otro observable con todos los nat
+Tambien tenemos otro observable $\hat x$ con todos los enteros como espectro, el cual actuará como el puntero, o posición de la cinta, de una maquina de turing clasica.
 
+Luego, el estado de la maquina $\mathcal{L}$ corresponde a un vector unitario en el espacio $\mathcal{H}$ generado por los vectores propios
+
+$$
+| x;n;m \rangle \equiv |x; n_0, n_1,...,n_{M-1};...,m_{-1},m_0,m_1,...\rangle
+$$
+de $\hat x$ 
