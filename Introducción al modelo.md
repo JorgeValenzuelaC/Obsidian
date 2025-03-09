@@ -43,3 +43,6 @@ $$
 $$
 donde solo una cantidad finita de $\lambda_m$ son distintos de 0, o $\lambda_m$ se desvanece en el caso contrario
 
+Para satisfacer los requerimientos "fisicos" esperables de una maquina de computo, se pide que los elementos de la matriz unitaria $U$ tomen la siguiente forma:
+
+$\langle x'\;;\;n'\;;\;m'|U|x\;;\;n\;;\;m \rangle$ 
