@@ -115,6 +115,8 @@ $$
 \begin{aligned}
 |0,1\rangle &\Rightarrow  \sum_{a^{\prime}, b^{\prime} \in\{0,1\}} S_{a^{\prime} b^{\prime}}^{01}\left|a', b'\right\rangle \\
 &= \;\;\;  S_{00}^{01}|0,0\rangle+S_{01}^{01}|0,1\rangle + S_{10}^{01}|1,0\rangle+S_{11}^{01}|1,1\rangle \\
-&= \;\;\;  \delta_0^{0\oplus 1} \delta_0^1|0,0\rangle+\delta_0^{0\oplus 1}\delta_1^1|0,1\rangle + \delta_1^{0 \oplus 1} \delta_0^1|1,0\rangle+\delta_1^{0 \oplus 1}|1,1\rangle
+&= \;\;\;  \cancel{\delta_0^{0\oplus 1}} \delta_0^1|0,0\rangle+\cancel{\delta_0^{0\oplus 1}}\delta_1^1|0,1\rangle + \delta_1^{0 \oplus 1} \cancel{\delta_0^1}|1,0\rangle+\delta_1^{0 \oplus 1}|1,1\rangle\\
+&=\;\;\; |1,1\rangle = M|0,1\rangle
 \end{aligned}
 $$
+
