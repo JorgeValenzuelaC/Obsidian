@@ -106,4 +106,8 @@ En la computación clásica, cuando una operación es reversible, esta siempre r
 
 ![[Pasted image 20250310135628.png]]
 
-Pero hay una forma mejor que 
+Pero hay una forma mejor de definir las puertas que nos permite extenderlo al contexto cuantico.
+Consideremos la matriz de $4\times 4 \;\;\; S$  con componentes
+$$S^{ab}_{a'b'} = \delta_{a'}^{a\oplus b} \delta_{b'}^b$$
+cuyo efecto sobre el estado de input $|a,b\rangle$ es 
+$$|a,b\rangle \Rightarrow \sum_{a',b' \in \{0,1\}} S_{a',b'}^{ab} |a',b'\rangle \equiv S|a,b\rangle$$
