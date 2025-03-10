@@ -133,4 +133,16 @@ Algunos outputs no están conectados a ningún input y son considerados el outpu
 
 Una red computacional cuántica es la generalización del circuito lógico, consiste en un conjunto de puertas cuánticas, fuentes, sumideros y cables unitarios. Una red cuántica puede o no ser una puerta cuántica por si misma. El criterio para que pueda ser puerta es que no "loopee" un input en un output de pasos anteriores.
 
-La bifurcacion de cables unitarios, se hace realizando una copia fisica de la información 
+La bifurcación de cables unitarios, se hace realizando una copia física de la información del bit a copiar, para lo cual se usa una puerta no trivial llamada fan-out gate $F$ 
+
+![[Pasted image 20250310145944.png]]
+
+
+Algunas operaciones si pueden ser realizadas con solo cables unitarios, como la operación $SWAP$ $|a,b\rangle \Rightarrow |b,a\rangle$ 
+
+![[Pasted image 20250310150132.png]]
+
+
+
+
+
