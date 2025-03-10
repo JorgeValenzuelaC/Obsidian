@@ -74,11 +74,12 @@ La Computadora cuántica $\mathcal{L}$ posee la propiedad universal de computar 
 ## [Deutsch 1989]  Quantum Computational Networks
 
 ### Introducción 
-Comienza definiendo la computación como un proceso físico en el que un sistema transforma unos estados iniciales (entradas) en otros estados finales (salidas) de acuerdo con una función determinada. Se explica que, si bien los símbolos (entradas y salidas) pueden ser abstractos, en una implementación real son estados físicos de un sistema. Para formalizar la idea, se introducen tres observables:  
+
+Comienza definiendo la computación como un proceso físico en el que un sistema transforma unos estados iniciales (entradas) en otros estados finales (salidas) de acuerdo con una función determinada. Se explica que, si bien los símbolos (entradas y salidas) pueden ser abstractos, en una implementación real son estados físicos de un sistema. Para formalizar la idea, se introducen tres observables:
 	• El observable de entrada, que se prepara en uno de varios estados posibles.  
 	• El observable de salida, cuyos valores se interpretan como el resultado del cómputo.  
 	• La “bandera de parada” (halt flag), que indica cuándo la computación ha concluido.
-	
-Se analiza el “bit” como la unidad mínima de información no probabilística. En el contexto cuántico, el bit se asocia naturalmente a un sistema de dos estados (por ejemplo, el spin de una partícula).  
-• Se subraya que la estructura discreta de la información —tan intrínseca en la palabra “cuántico” (indivisible) como lo es “bit”— encaja de forma natural en la teoría cuántica, a diferencia de la física clásica donde los observables suelen tener espectros continuos.  
-• Se asume que la computación se realiza en pasos discretos, lo que implica que la preparación de entradas, la evolución y la medición (incluida la observación de la bandera de parada) ocurren en instantes bien definidos.
+
+Se analiza el “bit” como la unidad mínima de información no probabilística. En el contexto cuántico, el bit se asocia naturalmente a un sistema de dos estados (por ejemplo, el spin de una partícula, aunque conviene mas tomar una base como $\{0,1\}$ en vez de la típica $\{\frac{1}{2}, -\frac{1}{2}\}$ de cuántica).  
+
+Se asume que la computación se realiza en pasos discretos, lo que implica que la preparación de entradas, la evolución y la medición (incluida la observación del halt flag) ocurren en instantes bien definidos.
