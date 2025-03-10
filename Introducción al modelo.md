@@ -125,4 +125,8 @@ Para puertas clásicas de un solo bit de entrada y salida existen cuatro computa
 
 Para las conexiones entre puertas consideramos puertas unitarias llamadas cable unitario, que son simplemente aplicaciones de la identidad.
 
-Uni circuito logico es una maquina de computacion que consiste de puertas logicas cuyos pasos de computo están sincronizados.
+Uni circuito lógico es una maquina de computación que consiste de puertas lógicas cuyos pasos de computo están sincronizados. Los outputs de algunas puertas son conectados por cables unitarios a los inputs de otras puertas, algunos inputs no provienen de ningún output y son usados como el input general de la red. El resto de inputs son conectados a "fuentes", las cuales son puertas con ningún input y solo un output, el cual en cada paso de computación emite un bit con valor '0' o '1' de manera fija.
+
+![[Pasted image 20250310145141.png]]
+
+Algunos outputs no estan conectados a ningun input y son considerados el output de la red, el resto se conecta a sumideros, los cuales son irreversibles, esto ya que pueden absorber cualquier valor, mientras que las fuentes si son invertibles porque solo emiten 
