@@ -119,4 +119,6 @@ $$
 &=\;\;\; |1,1\rangle = M|0,1\rangle
 \end{aligned}
 $$
+Si una puerta cuantica $G$ tiene la $S$-matriz $S_G$ , entonces la puerta inversa $G^{-1}$ tiene la $S$-matriz $S_G^\dagger$ que es su operador hemitiano adjunto (traspuesta conjugada) . Decimos que dos puertas son computacionalmente distintas cuando sus $S$-matrices son distintas salvo multiplicación por un factor de fase 
 
+Para puertas clasicas unitar
