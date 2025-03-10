@@ -119,6 +119,10 @@ $$
 &=\;\;\; |1,1\rangle = M|0,1\rangle
 \end{aligned}
 $$
-Si una puerta cuantica $G$ tiene la $S$-matriz $S_G$ , entonces la puerta inversa $G^{-1}$ tiene la $S$-matriz $S_G^\dagger$ que es su operador hemitiano adjunto (traspuesta conjugada) . Decimos que dos puertas son computacionalmente distintas cuando sus $S$-matrices son distintas salvo multiplicación por un factor de fase 
+Si una puerta cuántica $G$ tiene la $S$-matriz $S_G$ , entonces la puerta inversa $G^{-1}$ tiene la $S$-matriz $S_G^\dagger$ que es su operador hermitiano adjunto (traspuesta conjugada) . Decimos que dos puertas son computacionalmente distintas cuando sus $S$-matrices son distintas salvo multiplicación por un factor de fase 
 
-Para puertas clasicas unitar
+Para puertas clásicas de un solo bit de entrada y salida existen cuatro computacionalmente distintas, de las cuales solo dons son reversibles, la identidad y la puerta NOT. En cambio, existen muchas puertas cuánticas de 1 bit que son reversibles (una para cada elemento del grupo $SU(2)$, para ser exactos) 
+
+Para las conexiones entre puertas consideramos puertas unitarias llamadas cable unitario, que son simplemente aplicaciones de la identidad.
+
+Uni circuito logico es una maquina de computacion que consiste de puertas logicas cuyos pasos de computo están sincronizados.
