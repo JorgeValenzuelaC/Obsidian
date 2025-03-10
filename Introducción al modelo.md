@@ -89,3 +89,9 @@ $$
 Se analiza el “bit” como la unidad mínima de información no probabilística. En el contexto cuántico, el bit se asocia naturalmente a un sistema de dos estados (por ejemplo, el spin de una partícula, aunque conviene mas tomar una base como $\{0,1\}$ en vez de la típica $\{\frac{1}{2}, -\frac{1}{2}\}$ de cuántica).  
 
 Se asume que la computación se realiza en pasos discretos, lo que implica que la preparación de entradas, la evolución y la medición (incluida la observación del halt flag) ocurren en instantes bien definidos.
+
+### Puertas Cuánticas 
+
+Al igual que su analogo clasico, las puertas cuanticas reciben una cantidad de observables de entrada y generan otra cantidad de salida. La diferencia radica en que tanto los estados de entrada como de salida pueden ser estados arbitrarios del espacio de Hilbert, i.e. estados superpuestos. Incluso cuando el input son estados bases (estados propios del sistema), las puertas cuanticas generalmente dan como resultado un estado superpuesto.
+
+Las puertas se pueden representar en forma de diagrama con cajas donde los imputs son recibidos por la part izquierda y los outputs salen por la derecha. La puerta se dice reversible si sus inputs y sus outpo
