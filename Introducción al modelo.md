@@ -143,6 +143,4 @@ Algunas operaciones si pueden ser realizadas con solo cables unitarios, como la 
 ![[Pasted image 20250310150132.png]]
 
 
-
-
-
+![[Pasted image 20250310151853.png]]
