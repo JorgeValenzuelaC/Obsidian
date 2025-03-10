@@ -92,6 +92,11 @@ Se asume que la computación se realiza en pasos discretos, lo que implica que l
 
 ### Puertas Cuánticas 
 
-Al igual que su analogo clasico, las puertas cuanticas reciben una cantidad de observables de entrada y generan otra cantidad de salida. La diferencia radica en que tanto los estados de entrada como de salida pueden ser estados arbitrarios del espacio de Hilbert, i.e. estados superpuestos. Incluso cuando el input son estados bases (estados propios del sistema), las puertas cuanticas generalmente dan como resultado un estado superpuesto.
+Al igual que su análogo clásico, las puertas cuánticas reciben una cantidad de observables de entrada y generan otra cantidad de salida. La diferencia radica en que tanto los estados de entrada como de salida pueden ser estados arbitrarios del espacio de Hilbert, i.e. estados superpuestos. Incluso cuando el input son estados bases (estados propios del sistema), las puertas cuánticas generalmente dan como resultado un estado superpuesto.
 
-Las puertas se pueden representar en forma de diagrama con cajas donde los imputs son recibidos por la part izquierda y los outputs salen por la derecha. La puerta se dice reversible si sus inputs y sus outpo
+Las puertas se pueden representar en forma de diagrama con cajas donde los inputs son recibidos por la part izquierda y los outputs salen por la derecha. La puerta se dice reversible si sus inputs y sus outputs están relacionados por una función invertible
+
+![[Pasted image 20250310134745.png]]
+
+![[Pasted image 20250310134831.png]]
+
