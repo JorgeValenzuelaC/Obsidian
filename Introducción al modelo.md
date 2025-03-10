@@ -129,4 +129,8 @@ Uni circuito lógico es una maquina de computación que consiste de puertas lóg
 
 ![[Pasted image 20250310145141.png]]
 
-Algunos outputs no estan conectados a ningun input y son considerados el output de la red, el resto se conecta a sumideros, los cuales son irreversibles, esto ya que pueden absorber cualquier valor, mientras que las fuentes si son invertibles porque solo emiten 
+Algunos outputs no están conectados a ningún input y son considerados el output de la red, el resto se conecta a sumideros, los cuales son irreversibles, esto ya que pueden absorber cualquier valor, mientras que las fuentes si son invertibles ya que su inversa sería una puerta que solo recibe un tipo de valor '0' o '1'. 
+
+Una red computacional cuántica es la generalización del circuito lógico, consiste en un conjunto de puertas cuánticas, fuentes, sumideros y cables unitarios. Una red cuántica puede o no ser una puerta cuántica por si misma. El criterio para que pueda ser puerta es que no "loopee" un input en un output de pasos anteriores.
+
+La bifurcacion de cables unitarios, se hace realizando una copia fisica de la información 
