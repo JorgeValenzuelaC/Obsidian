@@ -67,3 +67,6 @@ La Computadora cuántica $\mathcal{L}$ posee la propiedad universal de computar 
 
 ![[Pasted image 20250309183656.png]]
 
+![[Tesis/Untitled Diagram 1.svg]]
+
+
