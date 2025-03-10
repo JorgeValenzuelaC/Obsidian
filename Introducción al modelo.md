@@ -80,6 +80,12 @@ Comienza definiendo la computación como un proceso físico en el que un sistema
 	• El observable de salida, cuyos valores se interpretan como el resultado del cómputo.  
 	• La “bandera de parada” (halt flag), que indica cuándo la computación ha concluido.
 
+Ej: Observable de 3 bits mas halt flag
+
+$$
+| x_1,x_2,x_3 \rangle \;\;\otimes \;\; |y\rangle    
+$$
+
 Se analiza el “bit” como la unidad mínima de información no probabilística. En el contexto cuántico, el bit se asocia naturalmente a un sistema de dos estados (por ejemplo, el spin de una partícula, aunque conviene mas tomar una base como $\{0,1\}$ en vez de la típica $\{\frac{1}{2}, -\frac{1}{2}\}$ de cuántica).  
 
 Se asume que la computación se realiza en pasos discretos, lo que implica que la preparación de entradas, la evolución y la medición (incluida la observación del halt flag) ocurren en instantes bien definidos.
