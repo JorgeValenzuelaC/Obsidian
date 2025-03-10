@@ -100,3 +100,10 @@ Las puertas se pueden representar en forma de diagrama con cajas donde los input
 
 ![[Pasted image 20250310134831.png]]
 
+A continuación se detalla la forma en que se definirá la acción de una puerta sobre un observable.
+
+En la computación clásica, cuando una operación es reversible, esta siempre resulta ser una permutación entre los $2^n$ posibles estados de los $n$ bits que pasan por ella, por lo que una alternativa es definir explícitamente esta permutación 
+
+![[Pasted image 20250310135628.png]]
+
+Pero hay una forma mejor que 
