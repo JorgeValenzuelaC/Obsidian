@@ -1,7 +1,7 @@
 
-[D. Deutsch] Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer
+## [D. Deutsch] Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer
 
-# El computador Cuántico $\mathcal{L}$
+### El computador Cuántico $\mathcal{L}$
 
 Tenemos un procesador que consiste de $M$ observables de dos estados
 
@@ -60,13 +60,25 @@ Tampoco podemos hacer ninguna observación antes de que la computación se deten
 
 ![[Pasted image 20250309183323.png]]
 
-## Prop.
+### Prop.
 La Computadora cuántica $\mathcal{L}$ posee la propiedad universal de computar cualquier función recursiva, al igual que la Maquina de Turing.
 
-## Base para la computación cuántica universal
+### Base para la computación cuántica universal
 
 ![[Pasted image 20250309183656.png]]
 
 
 
 ![[a.svg]]
+
+## [Deutsch 1989]  Quantum Computational Networks
+
+### Introducción 
+Comienza definiendo la computación como un proceso físico en el que un sistema transforma unos estados iniciales (entradas) en otros estados finales (salidas) de acuerdo con una función determinada. Se explica que, si bien los símbolos (entradas y salidas) pueden ser abstractos, en una implementación real son estados físicos de un sistema. Para formalizar la idea, se introducen tres observables:  
+	• El observable de entrada, que se prepara en uno de varios estados posibles.  
+	• El observable de salida, cuyos valores se interpretan como el resultado del cómputo.  
+	• La “bandera de parada” (halt flag), que indica cuándo la computación ha concluido.
+	
+Se analiza el “bit” como la unidad mínima de información no probabilística. En el contexto cuántico, el bit se asocia naturalmente a un sistema de dos estados (por ejemplo, el spin de una partícula).  
+• Se subraya que la estructura discreta de la información —tan intrínseca en la palabra “cuántico” (indivisible) como lo es “bit”— encaja de forma natural en la teoría cuántica, a diferencia de la física clásica donde los observables suelen tener espectros continuos.  
+• Se asume que la computación se realiza en pasos discretos, lo que implica que la preparación de entradas, la evolución y la medición (incluida la observación de la bandera de parada) ocurren en instantes bien definidos.
