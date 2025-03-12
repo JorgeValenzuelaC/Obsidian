@@ -1,5 +1,5 @@
 
-## [D. Deutsch] Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer
+## [Deutsch 1985] Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer
 
 ### El computador Cuántico $\mathcal{L}$
 
@@ -15,7 +15,7 @@ $$
 $$
 Esto hace el análogo de la cinta infinita de una maquina de Turing clásica.
 
-Tambien tenemos otro observable $\hat x$ con todos los enteros como espectro, el cual actuará como el puntero, o posición de la cinta, de una maquina de Turing clasica.
+Tambien tenemos otro observable $\hat x$ con todos los enteros como espectro, el cual actuará como el puntero, o posición de la cinta, de una maquina de Turing clásica.
 
 Luego, el estado de la maquina $\mathcal{L}$ corresponde a un vector unitario en el espacio $\mathcal{H}$ generado por los vectores propios
 
@@ -67,7 +67,7 @@ La Computadora cuántica $\mathcal{L}$ posee la propiedad universal de computar 
 
 ![[Pasted image 20250309183656.png]]
 
-
+### Ejemplo de computación de la puerta NOT sobre un input de dos qubits 
 
 ![[a.svg]]
 
@@ -141,6 +141,9 @@ La bifurcación de cables unitarios, se hace realizando una copia física de la 
 Algunas operaciones si pueden ser realizadas con solo cables unitarios, como la operación $SWAP$ $|a,b\rangle \Rightarrow |b,a\rangle$ 
 
 ![[Pasted image 20250310150132.png]]
+
+
+### Ejemplo de un circuito cuántico (Alg. de Grover)
 
 
 ![[Pasted image 20250310151853.png]]
